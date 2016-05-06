@@ -1,0 +1,100 @@
+$blue: #1ebcc5;
+
+body, html {
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 26px;
+  background-color: black !important;
+  color: grey;
+}
+
+.col-xs-15 {
+  width: 10%;
+  float: left;
+}
+@media (min-width: 768px) {
+  .col-sm-15 {
+    width: 10%;
+    float: left;
+  }
+}
+@media (min-width: 992px) {
+  .col-md-15 {
+    width: 10%;
+    float: left;
+  }
+}
+@media (min-width: 1200px) {
+  .col-lg-15 {
+    width: 10%;
+    float: left;
+  }
+}
+
+table th,td {
+  padding: 6px 2px;
+}
+
+table {
+  border-collapse: collapse;
+  color: darkblue;
+}
+
+table td {
+  font-size: 12em;
+  padding: 7px;
+  background: darkblue;
+}
+
+.gameover {
+  background: #000066;
+}
+
+table tr:first-child td {
+  border-top: 0;
+}
+
+table tr:last-child td {
+  border-bottom: 0;
+}
+
+table tr td:first-child,
+table tr th:first-child {
+  border-left: 0;
+}
+
+table tr td:last-child,
+table tr th:last-child {
+  border-right: 0;
+}
+
+.empty {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: black;
+}
+
+.circle-red {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: red;
+}
+
+.circle-yellow {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: yellow;
+}
+
+.circle-win {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: green;
+}
+
+.gameover {
+  color: green;
+}
