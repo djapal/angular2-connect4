@@ -38,7 +38,7 @@ export class AppComponent implements OnInit {
     ngOnInit():any {
         this.resetBoard();
 
-        this.socket = io.connect('http://127.0.0.1:8080');
+        this.socket = io.connect('http://connect4-anglr2.rhcloud.com');
 
         this.socket.on('assignPlayerNumber', function (data) {
             this.player = data;
