@@ -13,7 +13,6 @@ npm install
 node server.js
 ```
 3: Open 2 browsers or 2 browser tabs and make moves in each page
-=======
 
 Demo
 
