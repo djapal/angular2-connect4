@@ -2,7 +2,8 @@
   "name": "connect4-angular2",
   "version": "1.0.0",
   "scripts": {
-    "gulp": "gulp"
+    "gulp": "gulp",
+    "start": "node server.js"
   },
   "main": "server.js",
   "license": "ISC",
