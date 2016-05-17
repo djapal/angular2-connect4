@@ -1,4 +1,6 @@
-# angular2-tic-tac-toe
+# Angular 2 Connect 4
+[![Dependency Status](https://david-dm.org/djapal/angular2-connect4.svg)](https://david-dm.org/djapal/angular2-connect4)
+[![devDependency Status](https://david-dm.org/djapal/angular2-connect4/dev-status.svg)](https://david-dm.org/djapal/angular2-connect4#info=devDependencies)
 
 ## Description
 A connect 4 game in angular 2.
