@@ -64,6 +64,7 @@ io.on('connection', function (socket) {
         if (player2 === 0) {
             socket.name = 1;
             socket.emit('assignPlayerNumber', 1);
+            io.emit('enableGame');
             player2 = 1;
         } else {
             io.emit('newConnection', 2);

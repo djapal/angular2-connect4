@@ -47,8 +47,17 @@ export class AppComponent implements OnInit {
                 this.status = '2 players already connected';
                 this.board.isActive = false;
             } else {
-                this.status = 'You are player ' + (++data);
+                let index = ++data;
+                this.status = 'You are player ' + index;
+                if (index === 1) {
+                    this.board.isActive = false;
+                }
             }
+        }.bind(this));
+
+        this.socket.on('enableGame', function () {
+            this.status = 'Other player connected!';
+            this.board.isActive = true;
         }.bind(this));
 
         this.socket.on('gameOver', function() {
