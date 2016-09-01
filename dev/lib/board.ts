@@ -52,7 +52,6 @@ export default class Board {
     }
 
     checkVictory() {
-        this.checkDiagonals();
         return this.checkRows() || this.checkColumns() || this.checkDiagonals();
     }
 
